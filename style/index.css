@@ -8,7 +8,8 @@ body{
     padding:25px;
     text-transform: capitalize;
     font-family: monospace;
-    
+    user-select: none;
+    /* pointer-events: none; */
 
 }
 

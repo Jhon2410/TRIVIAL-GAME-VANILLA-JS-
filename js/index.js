@@ -11,7 +11,7 @@ window.addEventListener("load", function(e) {
     }
 
 
-
+    let marca = "x";
 
 
 
@@ -23,7 +23,13 @@ window.addEventListener("load", function(e) {
 
     document.querySelectorAll(".casillas").forEach(c=> c.addEventListener("click",(e)=>{
         if(e.target.innerHTML ===""){
-        e.target.innerHTML += "x";
+        e.target.innerHTML += marca;
+
+        if(marca==="x"){
+            marca = "o"
+        }else{
+            marca="x"
+        }
         }
     }))
 
