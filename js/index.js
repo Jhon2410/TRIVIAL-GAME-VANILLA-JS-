@@ -22,7 +22,7 @@ window.addEventListener("load", function(e) {
     }
 
     document.querySelectorAll(".casillas").forEach(c=> c.addEventListener("click",(e)=>{
-        console.log(e.target.id)
+        e.target.innerHTML += "x";
     }))
 
 
