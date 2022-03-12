@@ -33,7 +33,12 @@ text-align: center;
 line-height: 100px;
 }
 
+.bluer{
+    filter:bluer(10px);
+}
+
 .casillas:hover{
     filter: brightness(0.8);
+
 
 }
