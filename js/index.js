@@ -21,6 +21,7 @@ window.addEventListener("load", function (e) {
       (casillas[1] && casillas[5] && casillas[9]) ||
       (casillas[7] && casillas[5] && casillas[3])
     ) {
+    document.querySelector(".main").classList.add("userSelec")
       return true;
     } else {
       return false;
